@@ -5,7 +5,7 @@ print(f"{greeting}!")
 
 # 2. Ask the user for their name, and then greet the user, using their name as part of the greeting. 
 # The name should be in title case, and shouldn't be surrounded by any excess white space.
-name = input("What is your name? ").strip().title()
+name = input("What is your name? ").title().strip()
 print(name)
 
 # 3. Concatenate the string "I am " and the integer 29 to produce a string which reads "I am 29".
