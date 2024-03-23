@@ -43,3 +43,5 @@ if hours_worked > 40.0:
     overtime_hours = hours_worked - 40.0
     overtime_pay = overtime_hours * 0.1 * hourly_wage
     print(f"{employee_name} is due additional pay of ${overtime_pay}")
+else:
+    print(f"{employee_name} is not due any additional pay.")
