@@ -25,8 +25,8 @@ count = 0
 
 for employee in employees:
     total += employee[2]
-    count += 1
-average = total / count
+
+average = total / len(employees)
 # print(average)
 
 for  employee in employees:
