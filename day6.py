@@ -21,7 +21,7 @@ for employee in employees:
 # have an hourly wage above the calculated average.
 
 total = 0
-count = 0
+# count = 0
 
 for employee in employees:
     total += employee[2]
