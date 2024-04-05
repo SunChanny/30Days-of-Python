@@ -18,3 +18,4 @@ hourly_wage = float(input("Please enter hourly wage: "))
 hours_worked = float(input("Please enter the number of hours worked: "))
 total_earnings = float(hourly_wage * hours_worked)
 print(f"{employee_name} earned ${total_earnings:.2f} this week.")
+
