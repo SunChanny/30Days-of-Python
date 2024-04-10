@@ -23,6 +23,9 @@ def actor_dict(tuple):
 # 4) Write a function that takes in a single number and returns True or False depending on
 # whether or not the number is prime.
 def is_prime(num):
+    if num < 2:
+        return False
+    
     for i in range(2, num):
         if num % i == 0:
             return False
